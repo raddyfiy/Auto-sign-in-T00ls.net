@@ -21,7 +21,8 @@ python3、可写的目录权限（用于生成日志）
   
     2) .在cmd输入compmgmt.msc，打开计算机管理，在左侧选择系统工具->任务计划程序->活动任务->找到t00ls_sign双击->属性->操作->编辑，
       在“起始于”里写入你存放脚本的文件夹路径。
-      ![image](https://github.com/raddyfiy/cod/blob/master/2020-03-28_153315.png)
+ ![image](https://github.com/raddyfiy/cod/blob/master/2020-03-28_153315.png)
+    
     3) .每天会自动签到，可以在log.txt查看签到日志.
 </details>
 
