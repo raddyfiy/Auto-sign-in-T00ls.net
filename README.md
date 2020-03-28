@@ -12,9 +12,11 @@ python3、可写的目录权限（用于生成日志）
 
 用法：
 
-1.windows下设置自动签到：
-  （待补充）
-  
+<details>
+  <summary>1.windows下设置自动签到：</summary>
+  （补充）
+</details>
+
 2.linux下设置自动签到：
     （待补充）
     
