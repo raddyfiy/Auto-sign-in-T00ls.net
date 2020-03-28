@@ -13,17 +13,23 @@ python3、可写的目录权限（用于生成日志）
 用法：
 
 <details>
-  <summary>1.windows下设置自动签到：</summary>
+  <summary>1. Windows下设置自动签到：</summary>
+  
     1) . 打开cmd，输入： 
-    schtasks /create /sc daily /tn "t00ls_sign" /tr "python tools_sign.py"
+     schtasks /create /sc daily /tn "t00ls_sign" /tr "python tools_sign.py"
   
     2) .在cmd输入compmgmt.msc，打开计算机管理，在左侧选择系统工具->任务计划程序->活动任务->找到t00ls_sign双击->属性->操作->编辑， 在“起始于里”写入你存放脚本的文件夹路径。
     3) .每天会自动签到，可以在log.txt查看签到日志.
-  
 </details>
 
-2.linux下设置自动签到：
-    （待补充）
+
+<details>
+  <summary>2. Linux下设置自动签到：：</summary>
+  
+    1) . crontab -e
+  
+    2) . 0 3 * * * python /path/tools_sign.py
+</details>
     
 3.手动签到一次：
 
