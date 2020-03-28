@@ -24,13 +24,21 @@ python3、可写的目录权限（用于生成日志）
 
 
 <details>
-  <summary>2. Linux下设置自动签到：：</summary>
+  <summary>2. Linux下设置自动签到：</summary>
   
-    1) . crontab -e
+    1) 
+      crontab -e
   
-    2) . 0 3 * * * python /path/tools_sign.py
+    2) 写以下指令，每天5.00am自动执行。
+      0 5 * * * python /path/tools_sign.py
 </details>
     
-3.手动签到一次：
 
-  python3 Auto_tools_signin.py
+<details>
+  <summary>3.手动签到一次：</summary>
+    
+    python3 Auto_tools_signin.py
+</details>
+
+
+  
