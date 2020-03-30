@@ -59,6 +59,11 @@ def logwrite(result):
     fn.write(str(time)+"    :   "+result+"\n")
     fn.close()
 
+def webhook(result):
+    webhookurl = "http://sc.ftqq.com/"
+    sckey = ""#替换成自己的sckey
+    requests.get(url=webhookurl + sckey + ".send?text=t00ls_signin_result&desp=" + result)
+    
 session=requests.session()
 result=login(session)
 if result=="success":
@@ -67,3 +72,4 @@ else:
     print("login_error")
     result="login_error"
 logwrite(result)
+webhook(result)
