@@ -2,8 +2,7 @@ import requests
 import json
 import datetime
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.1; E6883 Build/32.4.A.1.54; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36',
-   # 'Cookie':'smile=6D1; UTH_cookietime=2592000; UTH_auth=9469AOkbnGuWXJae9tax1xhro0Lpk5OoL%2FteXrsEoGe1uUrHJnCddFwZnPrW2wJ4rxUUSuNHcM9e%2F6QHd7QTeHyHGXxN54PwZ82Ftw; UTH_visitedfid=48D40; UTH_sid=7FzULH'
+    'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.1; E6883 Build/32.4.A.1.54; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36',   
     'Referer':'https://www.t00ls.net/members-profile-12894.html'
 }
 
