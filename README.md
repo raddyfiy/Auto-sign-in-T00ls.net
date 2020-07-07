@@ -1,9 +1,8 @@
 # Auto-sign-in-T00ls.net
 基于土司官方api的自动签到脚本
 
-更新说明：
-
 <details>
+<summary>更新说明：</summary>
 2020.7.7：账号密码登录后自动保存cookie，在失效前免登录，失效后再用密码登录</br>
 2020.4.9：@we1x4n 添加了webhook以使用微信查看签到结果</br>
 2020.3.28：修正api导致的错误</br>
