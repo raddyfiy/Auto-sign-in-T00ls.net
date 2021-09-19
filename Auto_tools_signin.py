@@ -4,7 +4,7 @@ import pickle
 import datetime
 headers = {
     'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.1; E6883 Build/32.4.A.1.54; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36',   
-    'Referer':'https://www.t00ls.net/members-profile-12894.html'
+    'Referer':'https://www.t00ls.com/members-profile-12894.html'
 }
 logindata={
 "action" :"login",
@@ -23,7 +23,7 @@ logindata={
 # 7 驾驶执照的最后四位数字
 
 def login(session):
-    loginurl="https://www.t00ls.net/login.json"
+    loginurl="https://www.t00ls.com/login.json"
     response=session.post(url=loginurl,data=logindata,headers=headers)
     responsejson=json.loads(response.text)
     with open("cookiefile","wb") as fn:
@@ -34,7 +34,7 @@ def login(session):
         return "login_error"
 
 def cookielogin(session):
-    singurl="https://www.t00ls.net/ajax-sign.json"
+    singurl="https://www.t00ls.com/ajax-sign.json"
     signdata={
     "signsubmit":"true"
     }
@@ -50,7 +50,7 @@ def cookielogin(session):
         return "fail"
 
 def signin(session,formhash):
-    singurl="https://www.t00ls.net/ajax-sign.json"
+    singurl="https://www.t00ls.com/ajax-sign.json"
     signdata={
     "formhash":"",
     "signsubmit":"true"
