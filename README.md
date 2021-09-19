@@ -3,8 +3,8 @@
 
 <details>
 <summary>更新说明：</summary>
-2021.9.19：修复了土司更换域名导致的错误，目前统一采用com域名进行签到。
-2020.8.18：修复了pickle未导入的bug(其实是传错版本了。。)https://github.com/raddyfiy/Auto-sign-in-T00ls.net/issues/2#issue-679309785
+2021.9.19：修复了土司更换域名导致的错误，目前统一采用com域名进行签到。</br>
+2020.8.18：修复了pickle未导入的bug(其实是传错版本了。。)https://github.com/raddyfiy/Auto-sign-in-T00ls.net/issues/2#issue-679309785  </br>
 2020.7.7：账号密码登录后自动保存cookie，在失效前免登录，失效后再用密码登录</br>
 2020.4.9：@we1x4n 添加了webhook以使用微信查看签到结果</br>
 2020.3.28：修正api导致的错误</br>
