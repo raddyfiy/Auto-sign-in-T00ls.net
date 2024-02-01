@@ -38,7 +38,7 @@ python3、可写的目录权限（用于生成日志）
       crontab -e
   
     2) 写以下指令，每天5.00am自动执行。
-      0 5 * * * python /path/Auto_tools_signin.py
+      0 5 * * * python3 /path/Auto_tools_signin.py
 </details>
     
 
